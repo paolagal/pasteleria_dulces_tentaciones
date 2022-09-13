@@ -1,0 +1,363 @@
+body
+{
+	background-image: url("../images/fondo1.png"); /*cimagen de fondo*/
+	background-size: cover;  /*la imagen sera renderizada preservando su proporción en el tamaño mayor de la pagina*/
+	background: no-repeat enter fixed;	/*que la imagen no se repitay se fije la imagen dentro de la ventana*/	
+	background-position: center;   /*posicion de la imagen*/
+	color: darkmagenta;   /*color de la fuente dentro de body*/
+}
+/*contenedores pagina principal*/
+.contenedorprincipal
+{
+	width: 1000px;
+	height: 900px;
+	background-color: #ACE8E6;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+/*contenedores principal largo*/
+.contenedorprincipallargo
+{
+	width: 1000px;
+	height: 1035px;
+	background-color: #ACE8E6;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+/*contenedores principal pasteles*/
+.contenedorprincipalpasteles
+{
+	width: 1000px;
+	height: 1170px;
+	background-color: #ACE8E6;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+/*contenedores principal pasteles de boda*/
+.contenedorprincipalpastelesboda
+{
+	width: 1000px;
+	height: 1075px;
+	background-color: #ACE8E6;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+/*contenedores principal chico*/
+.contenedorprincipalpasteleschico
+{
+	width: 1000px;
+	height: 1030px;
+	background-color: #ACE8E6;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+/*contenedor del menu principal*/
+.contenedormenu
+{
+	width: 700px;
+	height: 120px;
+	background-color: #FFE3AE;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+/*contenedor pagina principal numero 1*/
+.contenedor1
+{
+	width: 510px;
+	height: 410px;
+	background-color: #FEB8C9;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+
+}
+/*contenedor pagina principal numero 2*/
+.contenedor2
+{
+	width: 410px;
+	height: 410px;
+	background-color: #FEB8C9;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	float: right;
+}
+/*contenedores de contacto*/
+.contenedorcontacto1 
+{
+	width: 360px;
+	height: 490px;
+	background-color: #FEB8C9;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+.contenedorcontacto2 
+{
+	width: 560px;
+	height: 490px;
+	background-color: #ECD0F0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	float: right;
+}
+/*contenedores de postres*/
+.contenedorpostres1 
+{
+	width: 200px;
+	height: 490px;
+	background-color: #ECD0F0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+.contenedorpostres2 
+{
+	width: 720px;
+	height: 490px;
+	background-color: #FEB8C9;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	float: right;
+}
+.contenedorcuadrado /*contenedores de imagenes cuadradas*/
+{
+	width: 230px;
+	height: 230px;
+	background-color:#FF9AC3;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin: 10px;
+	float: left;
+}
+.contenedorrectangular /*contenedores de imagenes rectangular*/
+{
+	width: 170px;
+	height: 302px;
+	background-color:#FF9AC3;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin: 10px;
+	float: left;
+}
+.contenedorrectangularboda /*contenedores de imagenes rectangular pasteles de boda*/
+{
+	width: 170px;
+	height: 255px;
+	background-color:#FF9AC3;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin: 10px;
+	float: left;
+}
+.contenedorcuadradopasteles /*contenedores de imagenes cuadradas pasteles*/
+{
+	width: 170px;
+	height: 170px;
+	background-color:#FF9AC3;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin: 10px;
+	float: left;
+}
+.contenedorcorto
+{
+	width: 960px;
+	height: 120px;
+	background-color: #FEB8C9;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+}
+.contenedormenucorto /*contenedor menu secundario*/
+{
+	width: 200px;
+	height: 460px;
+	background-color: #ECD0F0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+/*imagen rollover*/
+
+.rollover {
+display:block;
+width:410px;
+height:410px;
+background:url("../images/imagenrollover.jpg");
+}
+
+.rollover:hover {
+background-position: center;
+background: url("../images/imagenrollover1.jpg");
+width:410px;
+height:410px;
+}
+
+/* tipografias*/
+@font-face
+{
+	font-family: Montserrat-Regular;
+	src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face
+{
+	font-family: Roboto;
+	src: url("../fonts/Roboto.ttf");
+}
+
+h1
+{
+	font-family: Montserrat-Regular; 
+	font-size: 60px;
+	color: hotpink;
+}
+h2
+{
+	font-family: Roboto; 
+	font-size: 30px;
+	color: hotpink;
+}
+h3 
+{
+	font-family: Roboto;
+	font-size: 25px;
+	color: darkviolet;
+}
+h4
+{
+	font-family: Roboto; 
+	font-size: 17px;
+	color: #754A23;
+}
+
+/*formulario*/
+.form-registro 
+{
+widht:150px; /*ancho del fondo del cuadrado*/
+padding: 30px; /*el relleno o alto de mi cuadrado gris*/
+margin: auto;
+margin-top: 100px; /*margen superior*/
+border-radius: 20px;/*redondeo de las esquinas*/
+font-family: "Roboto";
+color:white;/*color de la fuente*/
+box-shadow: 7px 13px 37px #000;/*sombra de nuestra caja*/
+background: #ACE8E6;
+}
+/*botones que desaparecen texto cuando escribes*/
+.controls
+{
+	width: 250px;
+	background: #ECD0F0;
+	padding: 20px;
+	border-radius: 18px;
+	margin-bottom: 20px;
+	border: 4px solid #7B35C7;
+	font-family: "Roboto";
+	font-size: 16px;
+}
+/*es para el diseño del boton ingresar*/
+.buttons 
+{
+	width: 100px;
+	background:#ECD0F0;
+	border:none ;
+	padding: 12px;
+	color: purple;
+	margin: 17px 0px;/*margenes de altura y margenes laterales contra la caja gris (fondo)*/
+	font-family: "Roboto";
+	font-size: 16px;
+}
+/*botones del menu*/
+.button
+{
+	width: 100px;
+	height: 50;
+	background: #EDB6FF;
+	border: none;
+	padding: 12px;
+	color: hotpink;
+	margin: 16px 0;
+	font-size: 20px;
+	text-decoration: none; 
+	box-shadow: 0px 3px 0px #d4c07f;
+	border-radius: 18%;
+}
+@media screen and (max-width: 800px){
+	.button {width: 100%; float: left; text-align: center;}
+}
+
+.button:hover {
+	background-color:#FFC0E9 ;
+	color: #010101;
+	font-weight: bold;
+}
+.contenedor
+{
+	margin-top: 150px;
+}
+.botonanimado
+{
+	text-align: center;
+}
+/*botones de las subpaginas*/
+.botonanimado
+{
+	background: #FCE4E2;
+	border-radius: 10px;
+	color: #4B3621;
+	cursor: pointer;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.botonanimado:hover
+{
+	background-image: linear-gradient(90deg,#FFE3AE 0,#ACE8E6 49%,#ECD0F0 80%,#FEB8C9 100%); 
+	animation: slidebg 5s linear infinite; 
+}
+
+@keyframes slidebg
+{
+to
+{
+	background-position:20vw}}
+.follow a 
+{
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
